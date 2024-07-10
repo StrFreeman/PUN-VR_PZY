@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: c8f310488a38b3a4795e69cc64d24ec6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bg_container_01
+    100002: bg_container_02
+    100004: bg_container_03
+    100006: bg_container_04
+    100008: bg_container_05
+    100010: bg_container_06
+    100012: bg_container_07
+    100014: bg_container_08
+    100016: bg_container_09
+    100018: bg_container_10
+    100020: bg_container_11
+    100022: bg_container_12
+    100024: bg_container_13
+    100026: bg_container_14
+    100028: bg_container_15
+    100030: bg_container_16
+    100032: bg_container_bundle_01
+    100034: bg_container_bundle_02
+    100036: bg_container_bundle_03
+    100038: bg_container_bundle_04
+    100040: bg_container_bundle_05
+    100042: bg_container_bundle_06
+    100044: bg_container_bundle_07
+    100046: bg_container_bundle_08
+    100048: bg_container_bundle_09
+    100050: bg_container_bundle_10
+    100052: //RootNode
+    100054: Camera
+    400000: bg_container_01
+    400002: bg_container_02
+    400004: bg_container_03
+    400006: bg_container_04
+    400008: bg_container_05
+    400010: bg_container_06
+    400012: bg_container_07
+    400014: bg_container_08
+    400016: bg_container_09
+    400018: bg_container_10
+    400020: bg_container_11
+    400022: bg_container_12
+    400024: bg_container_13
+    400026: bg_container_14
+    400028: bg_container_15
+    400030: bg_container_16
+    400032: bg_container_bundle_01
+    400034: bg_container_bundle_02
+    400036: bg_container_bundle_03
+    400038: bg_container_bundle_04
+    400040: bg_container_bundle_05
+    400042: bg_container_bundle_06
+    400044: bg_container_bundle_07
+    400046: bg_container_bundle_08
+    400048: bg_container_bundle_09
+    400050: bg_container_bundle_10
+    400052: //RootNode
+    400054: Camera
+    2300000: bg_container_01
+    2300002: bg_container_02
+    2300004: bg_container_03
+    2300006: bg_container_04
+    2300008: bg_container_05
+    2300010: bg_container_06
+    2300012: bg_container_07
+    2300014: bg_container_08
+    2300016: bg_container_09
+    2300018: bg_container_10
+    2300020: bg_container_11
+    2300022: bg_container_12
+    2300024: bg_container_13
+    2300026: bg_container_14
+    2300028: bg_container_15
+    2300030: bg_container_16
+    2300032: bg_container_bundle_01
+    2300034: bg_container_bundle_02
+    2300036: bg_container_bundle_03
+    2300038: bg_container_bundle_04
+    2300040: bg_container_bundle_05
+    2300042: bg_container_bundle_06
+    2300044: bg_container_bundle_07
+    2300046: bg_container_bundle_08
+    2300048: bg_container_bundle_09
+    2300050: bg_container_bundle_10
+    3300000: bg_container_01
+    3300002: bg_container_02
+    3300004: bg_container_03
+    3300006: bg_container_04
+    3300008: bg_container_05
+    3300010: bg_container_06
+    3300012: bg_container_07
+    3300014: bg_container_08
+    3300016: bg_container_09
+    3300018: bg_container_10
+    3300020: bg_container_11
+    3300022: bg_container_12
+    3300024: bg_container_13
+    3300026: bg_container_14
+    3300028: bg_container_15
+    3300030: bg_container_16
+    3300032: bg_container_bundle_01
+    3300034: bg_container_bundle_02
+    3300036: bg_container_bundle_03
+    3300038: bg_container_bundle_04
+    3300040: bg_container_bundle_05
+    3300042: bg_container_bundle_06
+    3300044: bg_container_bundle_07
+    3300046: bg_container_bundle_08
+    3300048: bg_container_bundle_09
+    3300050: bg_container_bundle_10
+    4300000: bg_container_01
+    4300002: bg_container_bundle_01
+    4300004: bg_container_bundle_05
+    4300006: bg_container_bundle_10
+    4300008: bg_container_bundle_04
+    4300010: bg_container_bundle_08
+    4300012: bg_container_bundle_02
+    4300014: bg_container_11
+    4300016: bg_container_12
+    4300018: bg_container_13
+    4300020: bg_container_14
+    4300022: bg_container_16
+    4300024: bg_container_bundle_09
+    4300026: bg_container_bundle_03
+    4300028: bg_container_bundle_06
+    4300030: bg_container_bundle_07
+    4300032: bg_container_02
+    4300034: bg_container_03
+    4300036: bg_container_04
+    4300038: bg_container_05
+    4300040: bg_container_06
+    4300042: bg_container_07
+    4300044: bg_container_08
+    4300046: bg_container_09
+    4300048: bg_container_10
+    4300050: bg_container_15
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: low
+    second: {fileID: 2100000, guid: feb3264fae4e98d4b85a40264353ded4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

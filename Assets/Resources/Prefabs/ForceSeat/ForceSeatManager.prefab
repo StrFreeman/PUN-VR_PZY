@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4161090306847314408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5429932217740804905}
+  - component: {fileID: 58724067070319385}
+  m_Layer: 0
+  m_Name: ForceSeatManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5429932217740804905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161090306847314408}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3743832, y: -2.3187857, z: 0.856393}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &58724067070319385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161090306847314408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ea1b3115ddd234f96ab122d26f0ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributeRanges:
+    rRoll:
+      max: 10
+      min: -10
+    rPitch:
+      max: 10
+      min: -10
+    rYaw:
+      max: 10
+      min: -10
+    rSurge:
+      max: 10
+      min: -10
+    rSway:
+      max: 10
+      min: -10
+    rHeave:
+      max: 10
+      min: -10
+  sIdle:
+    ssRoll:
+      step: 0.01
+      max: 0
+      min: 0
+    ssPitch:
+      step: 0.01
+      max: 0
+      min: 0
+    ssYaw:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSurge:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSway:
+      step: 0.01
+      max: 0
+      min: 0
+    ssHeave:
+      step: 0.01
+      max: 0
+      min: 0
+  ssWork:
+    ssRoll:
+      step: 0.008
+      max: 1
+      min: -1
+    ssPitch:
+      step: 0.008
+      max: 1
+      min: -1
+    ssYaw:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSurge:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSway:
+      step: 0.01
+      max: 0
+      min: 0
+    ssHeave:
+      step: 0.01
+      max: 0
+      min: 0
+  ssWind:
+    ssRoll:
+      step: 0.016
+      max: 1.5
+      min: -1.5
+    ssPitch:
+      step: 0.016
+      max: 1.5
+      min: -1.5
+    ssYaw:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSurge:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSway:
+      step: 0.01
+      max: 0
+      min: 0
+    ssHeave:
+      step: 0.01
+      max: 0
+      min: 0
+  ssAccident:
+    ssRoll:
+      step: 0.05
+      max: 5
+      min: -5
+    ssPitch:
+      step: 0.05
+      max: 5
+      min: -5
+    ssYaw:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSurge:
+      step: 0.01
+      max: 0
+      min: 0
+    ssSway:
+      step: 0.01
+      max: 0
+      min: 0
+    ssHeave:
+      step: 0.01
+      max: 0
+      min: 0
+  state: 0
+  stateBeforeShock: 0
+  testShockDur: 0.1
+  testShockStep: 0.05
+  testRotationStep: 0.01
+  testTranslateStep: 0.01

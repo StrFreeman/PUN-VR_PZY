@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: c6d9ce924b029a740b08e2dbf4e7721f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: body_main
+    100006: Camera
+    100008: //RootNode
+    100010: fensterscheiben
+    100012: gabelhalterung
+    100014: gabeln
+    100016: hebel1
+    100018: hebel2
+    100020: hebel3
+    100022: lenkrad
+    100024: reifen_hinten_links
+    100026: reifen_hinten_rechts
+    100028: reifen_vorne_links
+    100030: reifen_vorne_rechts
+    100032: zylinder_part1
+    100034: zylinder_part2
+    400000: arm1
+    400002: arm2
+    400004: body_main
+    400006: Camera
+    400008: //RootNode
+    400010: fensterscheiben
+    400012: gabelhalterung
+    400014: gabeln
+    400016: hebel1
+    400018: hebel2
+    400020: hebel3
+    400022: lenkrad
+    400024: reifen_hinten_links
+    400026: reifen_hinten_rechts
+    400028: reifen_vorne_links
+    400030: reifen_vorne_rechts
+    400032: zylinder_part1
+    400034: zylinder_part2
+    2300000: arm1
+    2300002: arm2
+    2300004: body_main
+    2300006: fensterscheiben
+    2300008: gabelhalterung
+    2300010: gabeln
+    2300012: hebel1
+    2300014: hebel2
+    2300016: hebel3
+    2300018: lenkrad
+    2300020: reifen_hinten_links
+    2300022: reifen_hinten_rechts
+    2300024: reifen_vorne_links
+    2300026: reifen_vorne_rechts
+    2300028: zylinder_part1
+    2300030: zylinder_part2
+    3300000: arm1
+    3300002: arm2
+    3300004: body_main
+    3300006: fensterscheiben
+    3300008: gabelhalterung
+    3300010: gabeln
+    3300012: hebel1
+    3300014: hebel2
+    3300016: hebel3
+    3300018: lenkrad
+    3300020: reifen_hinten_links
+    3300022: reifen_hinten_rechts
+    3300024: reifen_vorne_links
+    3300026: reifen_vorne_rechts
+    3300028: zylinder_part1
+    3300030: zylinder_part2
+    4300000: body_main
+    4300002: hebel1
+    4300004: lenkrad
+    4300006: fensterscheiben
+    4300008: arm1
+    4300010: arm2
+    4300012: gabelhalterung
+    4300014: gabeln
+    4300016: zylinder_part1
+    4300018: zylinder_part2
+    4300020: hebel2
+    4300022: hebel3
+    4300024: reifen_hinten_links
+    4300026: reifen_hinten_rechts
+    4300028: reifen_vorne_links
+    4300030: reifen_vorne_rechts
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: auspuff
+    second: {fileID: 2100000, guid: 35e27a53e1e05fb4a8e9bb2565004152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fensterscheibe
+    second: {fileID: 2100000, guid: 0b3990dc570444743ae241f6dc35104f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kunststoff
+    second: {fileID: 2100000, guid: 84a3ceaa6df99024a977301a6f244946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kunststoff reflective
+    second: {fileID: 2100000, guid: c5b945b9225c2fd4398ebcc345ef233b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: 4e1b4e609dc6e6f4e9e0bea46c3d4872, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_
+    second: {fileID: 2100000, guid: 3580121adbf08dd4ca876d2aec875896, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reifen
+    second: {fileID: 2100000, guid: a2ff34c69e7a1084087c8bffa1095e30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rueckleuchten
+    second: {fileID: 2100000, guid: 75a807294fcea114482832de622dc89e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scheinwerfer
+    second: {fileID: 2100000, guid: 14fdf46ddf922214ab03b9738081fb6c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 37
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

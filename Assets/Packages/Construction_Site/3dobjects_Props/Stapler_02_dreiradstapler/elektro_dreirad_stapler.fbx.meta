@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: eeaacc3b346b5eb4598ad42c138583c4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: body_main
+    100006: Camera
+    100008: //RootNode
+    100010: gabelhalterung
+    100012: gabeln
+    100014: hebel1
+    100016: hebel2
+    100018: hebel3
+    100020: lenkachse_hinten
+    100022: lenkrad
+    100024: reifen_hinten
+    100026: reifen_vorne_links
+    100028: reifen_vorne_rechts
+    100030: zylinder_part1
+    100032: zylinder_part2
+    400000: arm1
+    400002: arm2
+    400004: body_main
+    400006: Camera
+    400008: //RootNode
+    400010: gabelhalterung
+    400012: gabeln
+    400014: hebel1
+    400016: hebel2
+    400018: hebel3
+    400020: lenkachse_hinten
+    400022: lenkrad
+    400024: reifen_hinten
+    400026: reifen_vorne_links
+    400028: reifen_vorne_rechts
+    400030: zylinder_part1
+    400032: zylinder_part2
+    2300000: arm1
+    2300002: arm2
+    2300004: body_main
+    2300006: gabelhalterung
+    2300008: gabeln
+    2300010: hebel1
+    2300012: hebel2
+    2300014: hebel3
+    2300016: lenkachse_hinten
+    2300018: lenkrad
+    2300020: reifen_hinten
+    2300022: reifen_vorne_links
+    2300024: reifen_vorne_rechts
+    2300026: zylinder_part1
+    2300028: zylinder_part2
+    3300000: arm1
+    3300002: arm2
+    3300004: body_main
+    3300006: gabelhalterung
+    3300008: gabeln
+    3300010: hebel1
+    3300012: hebel2
+    3300014: hebel3
+    3300016: lenkachse_hinten
+    3300018: lenkrad
+    3300020: reifen_hinten
+    3300022: reifen_vorne_links
+    3300024: reifen_vorne_rechts
+    3300026: zylinder_part1
+    3300028: zylinder_part2
+    4300000: gabeln
+    4300002: lenkachse_hinten
+    4300004: body_main
+    4300006: lenkrad
+    4300008: reifen_vorne_links
+    4300010: reifen_hinten
+    4300012: arm1
+    4300014: reifen_vorne_rechts
+    4300016: arm2
+    4300018: gabelhalterung
+    4300020: zylinder_part1
+    4300022: zylinder_part2
+    4300024: hebel3
+    4300026: hebel1
+    4300028: hebel2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kunststoff
+    second: {fileID: 2100000, guid: 746848f3e9839954aa1ce79036004b30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 4d348114343402b498740f39cbd5f69a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: 9e607c7acf080a54984c626a5bf1032a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reifen
+    second: {fileID: 2100000, guid: dc9e59d200412a048a1c870308a8483e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rueckleuchten
+    second: {fileID: 2100000, guid: 499658539de935242bc872f4309de83d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sitz
+    second: {fileID: 2100000, guid: 085fd024ae73bd74eb03ea08768abe24, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 31
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

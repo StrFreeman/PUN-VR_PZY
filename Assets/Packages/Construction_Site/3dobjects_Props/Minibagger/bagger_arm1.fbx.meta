@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 874ad1bdd8de163458c074ab8051ec4a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm1_master_null
+    100002: //RootNode
+    100004: bagger_arm1 [arm1]
+    100006: bagger_arm1 [zylinder_arm1]
+    100008: bagger_arm1 [zylinder_arm1_teleskop]
+    100010: Camera
+    100012: drehachse_arm1
+    100014: drehachse_arm1_zylinder
+    100016: drehachse_arm1_zylinder_teleskop
+    100018: Fbx_Root
+    100020: Light
+    400000: arm1_master_null
+    400002: //RootNode
+    400004: bagger_arm1 [arm1]
+    400006: bagger_arm1 [zylinder_arm1]
+    400008: bagger_arm1 [zylinder_arm1_teleskop]
+    400010: Camera
+    400012: drehachse_arm1
+    400014: drehachse_arm1_zylinder
+    400016: drehachse_arm1_zylinder_teleskop
+    400018: Fbx_Root
+    400020: Light
+    2300000: bagger_arm1 [arm1]
+    2300002: bagger_arm1 [zylinder_arm1]
+    2300004: bagger_arm1 [zylinder_arm1_teleskop]
+    3300000: bagger_arm1 [arm1]
+    3300002: bagger_arm1 [zylinder_arm1]
+    3300004: bagger_arm1 [zylinder_arm1_teleskop]
+    4300000: bagger_arm1 [arm1]
+    4300002: bagger_arm1 [zylinder_arm1_teleskop]
+    4300004: bagger_arm1 [zylinder_arm1]
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: c24939ed736b26e4c8617ca67d5be164, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal gelb
+    second: {fileID: 2100000, guid: 2f971757c1d57c04eac06b8cc1155f52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal rohre gelb
+    second: {fileID: 2100000, guid: e8c791ad32c19c5488bfdcb629cd35e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schlauch
+    second: {fileID: 2100000, guid: ac5aefe4304cea946ab0f31039db8677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schrauben
+    second: {fileID: 2100000, guid: 0f04cac68b71af645a0b34a8a5e19a6a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

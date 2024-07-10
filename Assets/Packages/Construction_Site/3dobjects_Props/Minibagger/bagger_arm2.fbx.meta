@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 4f3455f6a7f0b8c42b9417e6de40ba9e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bagger_arm2 [arm2]
+    100004: bagger_arm2 [arm2_zylinder]
+    100006: bagger_arm2 [arm2_zylinder_teleskop]
+    100008: Camera
+    100010: drehachse_arm2
+    100012: drehachse_arm2_zylinder
+    100014: drehachse_arm2_zylinder_teleskop
+    100016: Fbx_Root
+    100018: Light
+    100020: master_null
+    400000: //RootNode
+    400002: bagger_arm2 [arm2]
+    400004: bagger_arm2 [arm2_zylinder]
+    400006: bagger_arm2 [arm2_zylinder_teleskop]
+    400008: Camera
+    400010: drehachse_arm2
+    400012: drehachse_arm2_zylinder
+    400014: drehachse_arm2_zylinder_teleskop
+    400016: Fbx_Root
+    400018: Light
+    400020: master_null
+    2300000: bagger_arm2 [arm2]
+    2300002: bagger_arm2 [arm2_zylinder]
+    2300004: bagger_arm2 [arm2_zylinder_teleskop]
+    3300000: bagger_arm2 [arm2]
+    3300002: bagger_arm2 [arm2_zylinder]
+    3300004: bagger_arm2 [arm2_zylinder_teleskop]
+    4300000: bagger_arm2 [arm2]
+    4300002: bagger_arm2 [arm2_zylinder_teleskop]
+    4300004: bagger_arm2 [arm2_zylinder]
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: 5d9352279a09cd34bb79a91dc76f831c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal gelb
+    second: {fileID: 2100000, guid: ac982bbdda8121247958dbedcb0940e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal rohre gelb
+    second: {fileID: 2100000, guid: cc3092d8ebd10a14b900dd2f4f8d02f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schrauben
+    second: {fileID: 2100000, guid: 670e9342f3beb54418f24fe49e8637e5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

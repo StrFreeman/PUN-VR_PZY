@@ -1,0 +1,12 @@
+{
+    "maxGear":1,
+    "maxStatus":95,
+    "minStatus":10,
+    "maxSpeed":[0.97],
+    "maxAcc":[0.65],
+    "recordBehavNames":["UpdateAcc","UpdateStatus","UpdateSpeed", "UpdateGear"],
+	"recordAttriNames":["Gear","Acc","Speed","Status","hookSwingX", "hookSwingY", "hookSwingZ"],
+
+
+    "maxLoadFormula":[28.93780219780312,-1.073523976024055,0.01591213786213978,-8.370629370630762e-005,0]
+}

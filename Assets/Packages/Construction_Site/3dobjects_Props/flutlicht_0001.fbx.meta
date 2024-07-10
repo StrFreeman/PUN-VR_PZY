@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 68267db4ceeaadc4c8cdf884c5a6b1ca
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: fllutlicht_0001_spot_LOD0
+    100004: fllutlicht_0001_spot_LOD1
+    100006: fllutlicht_0001_spot_LOD2
+    100008: fllutlicht_0001a_LOD0
+    100010: fllutlicht_0001a_LOD1
+    100012: //RootNode
+    100014: flutlicht_0001_glass
+    400000: Camera
+    400002: fllutlicht_0001_spot_LOD0
+    400004: fllutlicht_0001_spot_LOD1
+    400006: fllutlicht_0001_spot_LOD2
+    400008: fllutlicht_0001a_LOD0
+    400010: fllutlicht_0001a_LOD1
+    400012: //RootNode
+    400014: flutlicht_0001_glass
+    2300000: fllutlicht_0001_spot_LOD0
+    2300002: fllutlicht_0001_spot_LOD1
+    2300004: fllutlicht_0001_spot_LOD2
+    2300006: fllutlicht_0001a_LOD0
+    2300008: fllutlicht_0001a_LOD1
+    2300010: flutlicht_0001_glass
+    3300000: fllutlicht_0001_spot_LOD0
+    3300002: fllutlicht_0001_spot_LOD1
+    3300004: fllutlicht_0001_spot_LOD2
+    3300006: fllutlicht_0001a_LOD0
+    3300008: fllutlicht_0001a_LOD1
+    3300010: flutlicht_0001_glass
+    4300000: fllutlicht_0001a_LOD1
+    4300002: fllutlicht_0001a_LOD0
+    4300004: fllutlicht_0001_spot_LOD0
+    4300006: fllutlicht_0001_spot_LOD2
+    4300008: flutlicht_0001_glass
+    4300010: fllutlicht_0001_spot_LOD1
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flutlicht_0001_clean
+    second: {fileID: 2100000, guid: 3650a0fc883393c459275b3fdd0405ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flutlicht_0001_glass
+    second: {fileID: 2100000, guid: e2f8113ba87814a4b8ea2e43d35ece25, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 38
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

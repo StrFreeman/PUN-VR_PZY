@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 2537386deeb868d46be2c5406d45a5e3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: kabel_0001a_big_LOD0
+    100006: kabel_0001a_big_LOD1
+    100008: kabel_0001a_medium_LOD0
+    100010: kabel_0001a_medium_LOD1
+    100012: kabel_0001a_small_LOD0
+    100014: kabel_0001a_small_LOD1
+    400000: Camera
+    400002: //RootNode
+    400004: kabel_0001a_big_LOD0
+    400006: kabel_0001a_big_LOD1
+    400008: kabel_0001a_medium_LOD0
+    400010: kabel_0001a_medium_LOD1
+    400012: kabel_0001a_small_LOD0
+    400014: kabel_0001a_small_LOD1
+    2300000: kabel_0001a_big_LOD0
+    2300002: kabel_0001a_big_LOD1
+    2300004: kabel_0001a_medium_LOD0
+    2300006: kabel_0001a_medium_LOD1
+    2300008: kabel_0001a_small_LOD0
+    2300010: kabel_0001a_small_LOD1
+    3300000: kabel_0001a_big_LOD0
+    3300002: kabel_0001a_big_LOD1
+    3300004: kabel_0001a_medium_LOD0
+    3300006: kabel_0001a_medium_LOD1
+    3300008: kabel_0001a_small_LOD0
+    3300010: kabel_0001a_small_LOD1
+    4300000: kabel_0001a_small_LOD0
+    4300002: kabel_0001a_medium_LOD0
+    4300004: kabel_0001a_big_LOD0
+    4300006: kabel_0001a_small_LOD1
+    4300008: kabel_0001a_medium_LOD1
+    4300010: kabel_0001a_big_LOD1
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 3e8ac77fa19050542a3c82c78cb9f22c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main
+    second: {fileID: 2100000, guid: c7cd756eb2383b948807ae102d37b867, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 44
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

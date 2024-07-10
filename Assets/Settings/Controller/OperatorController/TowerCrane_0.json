@@ -1,0 +1,54 @@
+{
+    "_comment":"public enum InstructionType { hoist, trolley, pivot };",
+    "Items": [
+        {
+            "instructionType": 0,
+            "isContinous": true,
+            "axisNames": [ "VerticalRight" ],
+            "isNeedActivated": true,
+            "aAxisNames": [ "ActiveRight" ]
+        },
+        {
+            "instructionType": 1,
+            "isContinous": true,
+            "axisNames": [ "VerticalLeft" ],
+            "isNeedActivated": true,
+            "aAxisNames": [ "ActiveLeft" ]
+        },
+        {
+            "instructionType": 2,
+            "isContinous": true,
+            "axisNames": [ "HorizontalLeft" ],
+            "isNeedActivated": true,
+            "aAxisNames": [ "ActiveLeft" ]
+        },
+        {
+            "instructionType": 3,
+            "isContinous": false,
+            "axisNames": [ "GearHoist" ],
+            "isNeedActivated": false,
+            "aAxisNames": []
+        },
+        {
+            "instructionType": 4,
+            "isContinous": false,
+            "axisNames": [ "GearTrolley" ],
+            "isNeedActivated": false,
+            "aAxisNames": []
+        },
+        {
+            "instructionType": 5,
+            "isContinous": false,
+            "axisNames": [ "GearPivot" ],
+            "isNeedActivated": false,
+            "aAxisNames": []
+        },
+        {
+            "instructionType": 6,
+            "isContinous": false,
+            "axisNames": [ "WalkieTalkieCall" ],
+            "isNeedActivated": false,
+            "aAxisNames": []
+        }
+    ]
+}

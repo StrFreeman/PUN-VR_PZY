@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: e7d343408f522f04981a4a6f3a361593
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bagger_schaufel [hilfsarm_oben]
+    100004: bagger_schaufel [hilfsarm_unten]
+    100006: bagger_schaufel [schaufel]
+    100008: bagger_schaufel [zylinder]
+    100010: bagger_schaufel [zylinder_teleskop]
+    100012: Camera
+    100014: drehachse_hilfsarm1
+    100016: drehachse_hilfsarm2
+    100018: drehachse_schaufel
+    100020: drehachse_schaufel_zylinder
+    100022: drehachse_schaufel_zylinder_teleskop
+    100024: Fbx_Root
+    100026: Light
+    100028: master_null
+    400000: //RootNode
+    400002: bagger_schaufel [hilfsarm_oben]
+    400004: bagger_schaufel [hilfsarm_unten]
+    400006: bagger_schaufel [schaufel]
+    400008: bagger_schaufel [zylinder]
+    400010: bagger_schaufel [zylinder_teleskop]
+    400012: Camera
+    400014: drehachse_hilfsarm1
+    400016: drehachse_hilfsarm2
+    400018: drehachse_schaufel
+    400020: drehachse_schaufel_zylinder
+    400022: drehachse_schaufel_zylinder_teleskop
+    400024: Fbx_Root
+    400026: Light
+    400028: master_null
+    2300000: bagger_schaufel [hilfsarm_oben]
+    2300002: bagger_schaufel [hilfsarm_unten]
+    2300004: bagger_schaufel [schaufel]
+    2300006: bagger_schaufel [zylinder]
+    2300008: bagger_schaufel [zylinder_teleskop]
+    3300000: bagger_schaufel [hilfsarm_oben]
+    3300002: bagger_schaufel [hilfsarm_unten]
+    3300004: bagger_schaufel [schaufel]
+    3300006: bagger_schaufel [zylinder]
+    3300008: bagger_schaufel [zylinder_teleskop]
+    4300000: bagger_schaufel [schaufel]
+    4300002: bagger_schaufel [hilfsarm_unten]
+    4300004: bagger_schaufel [hilfsarm_oben]
+    4300006: bagger_schaufel [zylinder_teleskop]
+    4300008: bagger_schaufel [zylinder]
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: 05fe70e1839a72444ab64ce6622d5302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal gelb
+    second: {fileID: 2100000, guid: 67d5042f30740bb4d91bcc2b141b960f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal rohre gelb
+    second: {fileID: 2100000, guid: c5a60fc9b049fff4aab318cc5b1092d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schaufel zacken
+    second: {fileID: 2100000, guid: 5c3383ed3a04789469c6925339510d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schrauben
+    second: {fileID: 2100000, guid: 440b8acf4fe78af44835e904eb169620, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 2
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

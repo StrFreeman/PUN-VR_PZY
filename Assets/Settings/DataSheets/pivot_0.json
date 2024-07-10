@@ -1,0 +1,9 @@
+{
+    "maxGear":2,
+    "maxStatus":180,
+    "minStatus":-180,
+    "maxSpeed":[4.8,9.6],
+    "maxAcc":[3.2,6.4],
+	"recordBehavNames":["UpdateAcc","UpdateStatus","UpdateSpeed", "UpdateGear"],
+	"recordAttriNames":["Gear","Acc","Speed","Status"]
+	}
