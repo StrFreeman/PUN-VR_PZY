@@ -74,3 +74,10 @@ crashlytics-build.properties
 #Screen Recordings and Exp Records
 /[Aa]ssets/Recordings
 /[Aa]ssets/Record
+
+#Resources
+/[Aa]ssets/Resources
+
+#Packages Imported
+/[Aa]ssets/Packages
+
