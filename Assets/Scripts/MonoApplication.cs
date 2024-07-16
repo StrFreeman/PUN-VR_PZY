@@ -14,16 +14,50 @@ public class MonoApplication : MonoBehaviour
 
 
     private static MonoApplication _instance;
-    private AppState _curAppState;
+    [SerializeField] private AppState _curAppState;
 
+    #region Global Managers
     private CanvasManager _canvasManager;
     private PunManager _punManager;
+    #endregion
 
-
+    #region Local Managers
     private TaskManagerV2 _taskManager;
     private LevelManager _levelManager;
+    private PerformanceManager _performanceManager;
+    #endregion
 
-    
+    #region Global Manager Properties
+    public PunManager PunManager
+    {
+        get { return _punManager; }
+        private set { _punManager = value;}
+    }
+    public CanvasManager CanvasManager
+    {
+        get { return _canvasManager; }
+        private set { _canvasManager = value; }
+    }
+    #endregion
+    #region Local Manager Properties
+    public TaskManagerV2 TaskManager
+    {
+        get { return _taskManager; }
+        private set { _taskManager = value; }
+    }
+    public LevelManager LevelManager
+    {
+        get { return _levelManager; }
+        private set { _levelManager = value; }
+    }
+    public PerformanceManager PerformanceManager
+    {
+        get { return _performanceManager; }
+        private set { _performanceManager = value; }
+    }
+    #endregion
+
+
 
     [SerializeField] private PlayerRole _curPlayerRole;
     [SerializeField] private LevelType _curLevelType;
@@ -54,27 +88,7 @@ public class MonoApplication : MonoBehaviour
         private set { _instance = value; }
     }
 
-    public PunManager PunManager
-    {
-        get { return _punManager; }
-        private set { _punManager = value; }
-    }
-    public CanvasManager CanvasManager
-    {
-        get { return _canvasManager; }
-        private set { _canvasManager = value; }
-    }
 
-    public TaskManagerV2 TaskManager
-    {
-        get { return _taskManager; }
-        private set { _taskManager = value; }
-    }
-    public LevelManager LevelManager
-    {
-        get { return _levelManager; }
-        private set { _levelManager = value; }
-    }
 
 
 
@@ -126,6 +140,8 @@ public class MonoApplication : MonoBehaviour
                 CanvasManager.UnlockAll();
                 CurAppState = AppState.InLevel;
                 CanvasManager.UpdateLoadingUI(1f);
+
+
             };
             while (!async.isDone)
             {
@@ -145,6 +161,7 @@ public class MonoApplication : MonoBehaviour
     {
         TaskManager = EnsureLocalManager<TaskManagerV2>();
         LevelManager = EnsureLocalManager<LevelManager>();
+        PerformanceManager = EnsureLocalManager<PerformanceManager>();
     }
 
     public TManager EnsureGlobalManager<TManager>() where TManager : MonoBehaviour, IManager

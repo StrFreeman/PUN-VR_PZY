@@ -5,7 +5,7 @@ using System;
 using GoogleTextToSpeech.Scripts;
 using System.IO;
 
-public class PerformanceManager : MonoBehaviour
+public class PerformanceManager : MonoBehaviour, IManager
 {
     public MainUI mainUI;
 
@@ -354,6 +354,11 @@ public class PerformanceManager : MonoBehaviour
 
     }
 
+    public void Init()
+    {
+    }
 
-
+    public void PreInit()
+    {
+    }
 }

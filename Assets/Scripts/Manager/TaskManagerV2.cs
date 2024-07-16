@@ -1,9 +1,12 @@
+using Photon.Pun;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.XR.CoreUtils;
 using UnityEngine;
+using UnityEngine.Events;
 using static AbstrackTask;
+using static UnityEngine.GraphicsBuffer;
 
 public class TaskManagerV2 : MonoBehaviour, IManager
 {
@@ -11,7 +14,7 @@ public class TaskManagerV2 : MonoBehaviour, IManager
     public TowerCrane Target { get { return _target; } private set { _target = value; } }
 
     [SerializeField] private PerformanceManager _performanceManager;
-    private PerformanceManager PerformanceManager { get { return _performanceManager; } }
+    private PerformanceManager PerformanceManager { get { return _performanceManager; } set { _performanceManager = value; } }
 
 
 
@@ -118,6 +121,29 @@ public class TaskManagerV2 : MonoBehaviour, IManager
         }
     }
 
+
+
+    public void AddRemoteTask(RpcTarget rpcTarget, string funcName)
+    {
+        MonoApplication.Instance.PunManager.LocalManagerPhotonView.RPC(funcName, rpcTarget);
+    }
+
+    public void AddRemoteTaskToAll(string funcName)
+    {
+        AddRemoteTask(RpcTarget.All, funcName);
+    }
+    public void AddRemoteTaskToMaster(string funcName)
+    {
+        AddRemoteTask(RpcTarget.MasterClient, funcName);
+    }
+    public void AddRemoteTaskToOthers(string funcName)
+    {
+        AddRemoteTask(RpcTarget.Others, funcName);
+    }
+
+
+    //行人和小车进入交叉区域
+    [PunRPC]
     public void AddTask1()
     {
         PerformanceData startPD = new PerformanceData(
@@ -140,6 +166,8 @@ public class TaskManagerV2 : MonoBehaviour, IManager
         Tasks.Add(task1);
     }
 
+    //交叉区域停泊的泵车立起来
+    [PunRPC]
     public void AddTask2()
     {
         PerformanceData startPD = new PerformanceData(
@@ -162,6 +190,8 @@ public class TaskManagerV2 : MonoBehaviour, IManager
         Tasks.Add(task2);
     }
 
+    //吊物放置点区域中出現了未預期的施工材料或設備
+    [PunRPC]
     public void AddTask3()
     {
         PerformanceData startPD = new PerformanceData(
@@ -172,6 +202,8 @@ public class TaskManagerV2 : MonoBehaviour, IManager
         PerformanceManager.Perform(startPD);
     }
 
+    //极端天气，暴雨或雷電
+    [PunRPC]
     public void AddTask4()
     {
         PerformanceData startPD = new PerformanceData(
@@ -195,6 +227,8 @@ public class TaskManagerV2 : MonoBehaviour, IManager
         Tasks.Add(task4);
     }
 
+    //大風
+    [PunRPC]
     public void AddTask5()
     {
         PerformanceData startPD = new PerformanceData(
@@ -214,11 +248,11 @@ public class TaskManagerV2 : MonoBehaviour, IManager
 
         BaseTask sub1_0_lockTask = new BaseTask(Target.walkietalkie.GetStatus_throwAway, 0, true, false, false, 0, 0);
         BaseTask sub1_1_timerTask = MakeTimerTask(0.5f, 0, 0);
-        ConditionalTask sub1_checkLockTask = new ConditionalTask(sub1_0_lockTask, sub1_1_timerTask, 0, 0, startPD, endPD);
+        ConditionalTask sub1_checkLockTask = new ConditionalTask(sub1_0_lockTask, sub1_1_timerTask, 0, 0);
         
         ConditionalTask sub2_noMoveTask =  new ConditionalTask(MakeTimerTask(5, 0, 0), MakeAnyMoveTask(new int[] { 1, 2, 3 }), 0, 0);
 
-        SerialTask task5 = new SerialTask(new List<AbstrackTask>() { sub0_timerTask, sub1_checkLockTask, sub2_noMoveTask }, 0, 0);
+        SerialTask task5 = new SerialTask(new List<AbstrackTask>() { sub0_timerTask, sub1_checkLockTask, sub2_noMoveTask }, 0, 0, startPD, endPD);
         Tasks.Add(task5);
     }
 
@@ -246,6 +280,17 @@ public class TaskManagerV2 : MonoBehaviour, IManager
         return task;
     }
 
+
+
+
+
+    #region Make Task
+    private BaseTask MakeLockTask(float errorWeight = 0, float finishWeight = 0, PerformanceData startPD = null, PerformanceData finishPD = null, PerformanceData failPD = null, ExitCode failExitCode = ExitCode.none)
+    {
+        BaseTask task = new BaseTask(Target.walkietalkie.GetStatus_throwAway, 0, true, false, false, 0, errorWeight, startPD, finishPD, failPD);
+        return task;
+    }
+
     private BaseTask MakeTimerTask(float duration, float finishWeight = 0, float errorWeight = 0, PerformanceData startPD = null, PerformanceData finishPD = null, PerformanceData failPD = null, AbstrackTask.ExitCode failExitCode = AbstrackTask.ExitCode.none)
     {
         BaseTask timerTask = new BaseTask(null, duration, true, true, false, finishWeight, errorWeight, startPD, finishPD, failPD);
@@ -254,6 +299,13 @@ public class TaskManagerV2 : MonoBehaviour, IManager
 
         return timerTask;
     }
+
+    #endregion
+
+
+
+
+    #region Init
 
     public void Init()
     {
@@ -274,6 +326,7 @@ public class TaskManagerV2 : MonoBehaviour, IManager
     public void PreInit()
     {
         Tasks = new List<AbstrackTask>();
+        PerformanceManager= MonoApplication.Instance.PerformanceManager;
 
         switch (MonoApplication.Instance.CurPlayerRole)
         {
@@ -303,4 +356,6 @@ public class TaskManagerV2 : MonoBehaviour, IManager
         }
 
     }
+
+    #endregion
 }

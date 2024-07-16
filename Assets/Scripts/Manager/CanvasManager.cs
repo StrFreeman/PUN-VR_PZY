@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CanvasManager : MonoBehaviour, IManager
-{ 
+{
 
     void Awake()
     {
@@ -47,4 +48,5 @@ public class CanvasManager : MonoBehaviour, IManager
     {
 
     }
+
 }

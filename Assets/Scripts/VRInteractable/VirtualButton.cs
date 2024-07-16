@@ -23,8 +23,19 @@ public class VirtualButton : VirtualController
         base.Start();
 
         buttonMeshTF = this.transform.Find("Mesh");
-        XRSimpleInteractable simpleInteractable = buttonMeshTF.GetComponent<XRSimpleInteractable>();
-        buttonAudioSource = buttonMeshTF.GetComponent<AudioSource>();
+
+        if (!gameObject.TryGetComponent(out XRSimpleInteractable simpleInteractable))
+        {
+            simpleInteractable = buttonMeshTF.GetComponent<XRSimpleInteractable>();
+        }
+
+        if (!gameObject.TryGetComponent(out buttonAudioSource))
+        {
+            buttonAudioSource = buttonMeshTF.GetComponent<AudioSource>();
+        }
+
+
+
         simpleInteractable.selectEntered.AddListener(SelectEnter);
         simpleInteractable.selectExited.AddListener(SelectExit);
     }

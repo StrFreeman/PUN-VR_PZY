@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LevelManager : MonoBehaviour, IManager
 {
@@ -26,6 +27,8 @@ public class LevelManager : MonoBehaviour, IManager
     public GameObject TC2GO { get { return _tc2GO; } }
     public GameObject StartLocation1GO { get { return _startLocation1GO; } }
     public GameObject StartLocation2GO { get { return _startLocation2GO; } }
+
+
     private void InitPlayerPosition()
     {
         TowerCrane tc1 = TC1GO.GetComponent<TowerCrane>();
@@ -89,4 +92,6 @@ public class LevelManager : MonoBehaviour, IManager
     {
         
     }
+
+
 }
